@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio FitMax - Tu espacio de entrenamiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>💪 Gimnasio FitMax</h1>
+            <nav>
+                <a href="#horarios">Horarios</a>
+                <a href="#clases">Clases</a>
+                <a href="#cuotas">Cuotas</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Transforma tu cuerpo, transforma tu vida</h2>
+            <p>El mejor gimnasio de la ciudad con clases dirigidas y entrenamiento personalizado</p>
+            <button class="cta-button">Prueba gratis 7 días</button>
+        </div>
+    </section>
+
+    <!-- Horarios Section -->
+    <section id="horarios" class="section">
+        <div class="container">
+            <h2>Horarios del Gimnasio</h2>
+            <div class="horarios-grid">
+                <div class="horario-card">
+                    <h3>Lunes - Viernes</h3>
+                    <p class="time">6:00 - 23:00</p>
+                </div>
+                <div class="horario-card">
+                    <h3>Sábados</h3>
+                    <p class="time">8:00 - 21:00</p>
+                </div>
+                <div class="horario-card">
+                    <h3>Domingos</h3>
+                    <p class="time">9:00 - 15:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendario de Clases -->
+    <section id="clases" class="section section-dark">
+        <div class="container">
+            <h2>Calendario de Clases Dirigidas</h2>
+            
+            <div class="calendario-controles">
+                <button id="semanaAnterior">← Semana Anterior</button>
+                <h3 id="semanaActual">Semana del 10 - 16 Feb 2026</h3>
+                <button id="semanaSiguiente">Semana Siguiente →</button>
+            </div>
+
+            <div class="calendario">
+                <div class="dia-column">
+                    <div class="dia-header">Lunes</div>
+                    <div class="clase-card">
+                        <span class="hora">7:00</span>
+                        <span class="nombre">Yoga</span>
+                        <span class="instructor">María G.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">18:00</span>
+                        <span class="nombre">Spinning</span>
+                        <span class="instructor">Carlos M.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">19:30</span>
+                        <span class="nombre">CrossFit</span>
+                        <span class="instructor">Javier R.</span>
+                    </div>
+                </div>
+
+                <div class="dia-column">
+                    <div class="dia-header">Martes</div>
+                    <div class="clase-card">
+                        <span class="hora">7:30</span>
+                        <span class="nombre">Pilates</span>
+                        <span class="instructor">Laura S.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">18:30</span>
+                        <span class="nombre">Zumba</span>
+                        <span class="instructor">Ana P.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">20:00</span>
+                        <span class="nombre">Body Pump</span>
+                        <span class="instructor">Miguel A.</span>
+                    </div>
+                </div>
+
+                <div class="dia-column">
+                    <div class="dia-header">Miércoles</div>
+                    <div class="clase-card">
+                        <span class="hora">7:00</span>
+                        <span class="nombre">Yoga</span>
+                        <span class="instructor">María G.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">18:00</span>
+                        <span class="nombre">GAP</span>
+                        <span class="instructor">Sandra L.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">19:30</span>
+                        <span class="nombre">Spinning</span>
+                        <span class="instructor">Carlos M.</span>
+                    </div>
+                </div>
+
+                <div class="dia-column">
+                    <div class="dia-header">Jueves</div>
+                    <div class="clase-card">
+                        <span class="hora">7:30</span>
+                        <span class="nombre">Pilates</span>
+                        <span class="instructor">Laura S.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">18:30</span>
+                        <span class="nombre">Boxing</span>
+                        <span class="instructor">Roberto F.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">20:00</span>
+                        <span class="nombre">CrossFit</span>
+                        <span class="instructor">Javier R.</span>
+                    </div>
+                </div>
+
+                <div class="dia-column">
+                    <div class="dia-header">Viernes</div>
+                    <div class="clase-card">
+                        <span class="hora">7:00</span>
+                        <span class="nombre">Yoga</span>
+                        <span class="instructor">María G.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">18:00</span>
+                        <span class="nombre">Zumba</span>
+                        <span class="instructor">Ana P.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">19:30</span>
+                        <span class="nombre">Body Combat</span>
+                        <span class="instructor">Diego T.</span>
+                    </div>
+                </div>
+
+                <div class="dia-column">
+                    <div class="dia-header">Sábado</div>
+                    <div class="clase-card">
+                        <span class="hora">10:00</span>
+                        <span class="nombre">Spinning</span>
+                        <span class="instructor">Carlos M.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">11:30</span>
+                        <span class="nombre">Yoga</span>
+                        <span class="instructor">María G.</span>
+                    </div>
+                </div>
+
+                <div class="dia-column">
+                    <div class="dia-header">Domingo</div>
+                    <div class="clase-card">
+                        <span class="hora">10:00</span>
+                        <span class="nombre">Yoga Suave</span>
+                        <span class="instructor">María G.</span>
+                    </div>
+                    <div class="clase-card">
+                        <span class="hora">11:30</span>
+                        <span class="nombre">Pilates</span>
+                        <span class="instructor">Laura S.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leyenda">
+                <p><strong>Duración de clases:</strong> 45-60 minutos | <strong>Aforo máximo:</strong> 20 personas</p>
+                <p><em>* Reserva tu plaza con 24h de antelación en recepción o por app</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cuotas Section -->
+    <section id="cuotas" class="section">
+        <div class="container">
+            <h2>Nuestras Cuotas</h2>
+            <div class="cuotas-grid">
+                <div class="cuota-card">
+                    <h3>Básica</h3>
+                    <div class="precio">
+                        <span class="cantidad">29€</span>
+                        <span class="periodo">/mes</span>
+                    </div>
+                    <ul>
+                        <li>✓ Acceso al gimnasio</li>
+                        <li>✓ Zona de cardio y pesas</li>
+                        <li>✓ Vestuarios y duchas</li>
+                        <li>✗ Clases dirigidas</li>
+                        <li>✗ Entrenador personal</li>
+                    </ul>
+                    <button class="precio-button">Seleccionar</button>
+                </div>
+
+                <div class="cuota-card popular">
+                    <div class="badge">MÁS POPULAR</div>
+                    <h3>Premium</h3>
+                    <div class="precio">
+                        <span class="cantidad">45€</span>
+                        <span class="periodo">/mes</span>
+                    </div>
+                    <ul>
+                        <li>✓ Todo lo de Básica</li>
+                        <li>✓ Clases dirigidas ilimitadas</li>
+                        <li>✓ Acceso a zona wellness</li>
+                        <li>✓ 1 sesión entrenador/mes</li>
+                        <li>✗ Nutricionista</li>
+                    </ul>
+                    <button class="precio-button">Seleccionar</button>
+                </div>
+
+                <div class="cuota-card">
+                    <h3>Elite</h3>
+                    <div class="precio">
+                        <span class="cantidad">69€</span>
+                        <span class="periodo">/mes</span>
+                    </div>
+                    <ul>
+                        <li>✓ Todo lo de Premium</li>
+                        <li>✓ Entrenador personal 2x/semana</li>
+                        <li>✓ Plan nutricional personalizado</li>
+                        <li>✓ Acceso 24/7</li>
+                        <li>✓ Toalla incluida</li>
+                    </ul>
+                    <button class="precio-button">Seleccionar</button>
+                </div>
+            </div>
+            <p class="nota-cuotas">* Sin permanencia. Cancela cuando quieras. Matricula: 25€ (solo primera vez)</p>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section section-dark">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contacto-info">
+                <div class="info-item">
+                    <h3>📍 Dirección</h3>
+                    <p>Calle del Fitness, 123<br>28001 Madrid</p>
+                </div>
+                <div class="info-item">
+                    <h3>📞 Teléfono</h3>
+                    <p>+34 910 123 456</p>
+                </div>
+                <div class="info-item">
+                    <h3>✉️ Email</h3>
+                    <p>info@gimnasiofitmax.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gimnasio FitMax. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
